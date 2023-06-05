@@ -155,6 +155,7 @@ public class ViewTest {
             .append("Paid amount: SEK 1000.0\n")
             .append("Changes: SEK 700.8\n")
             .append("\n");
-        assertTrue("The printout in RunFakeScenarioOutput() method of View class prints out the wrong result.", outStream.toString().matches(expectedOutputRegex.toString()));
+        assertTrue("The printout in RunFakeScenarioOutput() method of View class prints out the wrong result.", 
+        outStream.toString().matches(expectedOutputRegex.toString()));
     }
 }

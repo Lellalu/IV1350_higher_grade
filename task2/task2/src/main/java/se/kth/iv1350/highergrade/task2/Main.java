@@ -24,7 +24,7 @@ public class Main
     }
 
     /**
-     * The RandomFiftyFiftyInheritance class to execute the inheritance class and the composition class.
+     * The class adapted from Random using inheritance.
      *
      */
     public static class RandomFiftyFiftyInheritance extends Random {
@@ -35,11 +35,19 @@ public class Main
             super(seed);
         }
 
+        /**
+        * The method to generate a boolean result, that 50 percent of it is true and 50 percent is false.
+        * @return true/false A boolean that has 50 percent to be true and 50 percent to be false.
+        */
         public boolean fiftyFifty() {
             return nextDouble() > 0.5;
         }
     }
 
+    /**
+     * The class adapted from Random using composition.
+     *
+     */
     public static class RandomFiftyFiftyComposition {
         private Random rand;
 
@@ -47,6 +55,10 @@ public class Main
             this.rand = new Random(seed);
         }
 
+        /**
+        * The method to generate a boolean result, that 50 percent of it is true and 50 percent is false.
+        * @return true/false A boolean that has 50 percent to be true and 50 percent to be false.
+        */
         public boolean fiftyFifty() {
             return this.rand.nextDouble() > 0.5;
         }
