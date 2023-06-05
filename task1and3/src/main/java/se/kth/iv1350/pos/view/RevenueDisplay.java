@@ -20,7 +20,7 @@ public abstract class RevenueDisplay implements RevenueObserver{
     *@param salePrice The double number of the running total price of a sale.
     *@throws Exception the exception will be thrown when an error happens.
     */
-     void completedSale(double salePrice) {
+    public void completedSale(double salePrice) {
         totalRevenue += salePrice;
         try{
             writeRevenue();

@@ -11,13 +11,6 @@ Run the following command to compile the project
 mvn clean compile
 ```
 
-Run this following command to test the project
-```bash
-mvn test
-```
-
 Run this following command to run the main file, which contains a fake sale scenario
 ```bash
-mvn compile exec:java -Dexec.mainClass="se.kth.iv1350.pos.startup.Main" -Dexec.args="./log.txt ./revenue_log.txt"
-```# IV1350_SEMINAR_4_POS
-# IV1350_higher_grade
+mvn compile exec:java -Dexec.mainClass="se.kth.iv1350.highergrade.task2.Main"
