@@ -1,8 +1,8 @@
-# IV1350_SEMINAR_4
-The program is an implementation of an objective-oriented design project in seminar 3 of the course of IV1350 Objective Oriented Design in KTH.
+# IV1350_Additional_Higher_Grade_Tasks1and3
+The program is an implementation of an objective-oriented design project in additional higher grade tasks of the course of IV1350 Objective Oriented Design in KTH.
 
-There are two directoried which separatly contains the source code and the tests of the program. The program implements the basic flow, the startup scenario, and the alternative
-flow (including 3-4b, 3-4c and 9a) specified in the document with tasks for seminar one and in basis of the design in seminar 2.
+The task 1 implements the Template Method Pattern for the observers written in task 2a
+in seminar 4, task 3 is to implement the unit tests for all the methods with printouts. 
 
 ## How to run
 
